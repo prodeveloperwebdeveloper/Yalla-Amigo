@@ -202,6 +202,65 @@
   background: var(--Pal3-color);
   color: #ffffff;
 }
+
+
+/* CONTACT SECTION */
+#contact {
+  padding: 80px 40px;
+  text-align: center;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+#contact h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color:var(--secondary-color)
+}
+/* Container styling for alignment (optional) */
+.contact-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+    transition: all .5s ease;
+}
+
+/* Base styling for all buttons */
+.social-btn {
+    display: inline-block;
+    padding: 10px 25px 10px 15px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    min-width: 150px; /* Ensures consistent width */
+}
+
+.social-btn i {
+    text-align: center;
+    justify-content: center;
+}
+.social-btn a {
+    text-align: center;
+    justify-content: center;
+}
+
+/* Specific colors for each service */
+.whatsapp {
+    text-align: center;
+    background-color: #25D366; /* WhatsApp brand color */
+}
+
+.instagram {
+    /* Instagram uses a gradient, a solid color works too */
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+}
+
+
+
 @media screen and (max-width: 883px) {
   .container .menu-box .food {
     -webkit-box-orient: vertical;
